@@ -1,0 +1,186 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.container {
+    width: 270px;
+    min-height: 400px;
+    margin-top: 70px;
+    background: linear-gradient(to left, #516395, #614385);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+#inputData {
+    height: 30px;
+}
+
+.weekDays {
+    color: lightgray;
+    margin-top: 10px;
+
+}
+
+.minMax {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: -40px;
+
+}
+
+.min h1 {
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 30px;
+    color: rgba(128, 0, 128, 1);
+
+}
+
+.min div {
+    color: lightgrey;
+    font-size: 10px;
+    text-align: center;
+}
+
+.max div {
+    color: lightgray;
+    font-size: 10px;
+    text-align: center;
+
+}
+
+.max h1 {
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 30px;
+    color: rgba(0, 0, 255, 1);
+
+}
+
+.minMax #inputData {
+    background-color: white;
+    width: 60%;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(to left, rgba(0, 0, 255, 1), rgba(128, 0, 128, 1));
+    font-size: large;
+    margin-top: 15px;
+
+}
+
+.icon {
+    display: flex;
+    position: relative;
+}
+
+.icon #weather-icon {
+    width: 100px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.icon .description {
+    position: relative;
+    top: 60px;
+    color: lightgray;
+}
+
+.temperature {
+    font-size: 120px;
+    color: lightgray;
+
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.wind,
+.humid {
+    display: flex;
+    align-items: center;
+}
+
+.wind img,
+.humid img {
+    width: 40px;
+    height: 40px;
+
+}
+
+.tempValSymbol {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.deg {
+    position: relative;
+    font-size: 50px;
+    font-weight: 800;
+    bottom: 40px;
+    color: lightgray;
+}
+
+.cel {
+    font-size: 50px;
+    font-weight: 600;
+    position: relative;
+
+}
+
+.rainAmountCaption .rainPerc,
+.speedCaption .speed,
+.humidCaption .humidity {
+    color: lightgrey;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.rainAmountCaption .rainCaption,
+.speedCaption .directionCaption,
+.humidCaption .humidityCaption {
+    color: grey;
+}
+
+i {
+    color: lightgray;
+    font-size: 37px;
+    margin-right: 3px;
+}
+
+.units {
+    margin-left: 5px;
+    font-weight: 700;
+    font-size: large;
+}
+
+.humidValSymbol {
+    display: flex;
+    align-items: center;
+    color: lightgray;
+}
+
+.SpeedValSymbol {
+    display: flex;
+    align-items: center;
+    color: lightgray;
+}

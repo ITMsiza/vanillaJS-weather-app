@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <section class="container">
+        <h1 class="weekDays">Today</h1>
+        <div class="minMax">
+            <div class="min">
+                <h1 class="minTemp">29</h1>
+                <div>Low</div>
+            </div>
+            <input type="text" id="inputData" name="inputData" placeholder="Search...">
+            <div class="max">
+                <h1 class="maxTemp">43</h1>
+                <div>High</div>
+            </div>
+        </div>
+        <div class="icon">
+            <img id="weather-icon" src="images/sunny.png" alt="Weather Icon">
+            <div class="description">Partly Cloudy</div>
+        </div>
+        <div class="tempValSymbol">
+            <div class="temperature">34</div>
+            <div class="deg">°<span class="cel">C</span></div>
+        </div>
+        <div class="details">
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="speedCaption">
+                    <div class="SpeedValSymbol">
+                        <div class="speed">15</div>
+                        <div class="units">km/h</div>
+                    </div>
+                    <div class="directionCaption">south</div>
+                </div>
+            </div>
+            <div class="humid">
+                <i class="fa-solid fa-droplet"></i>
+                <div class="humidCaption">
+                    <div class="humidValSymbol">
+                        <div class="humidity">65</div>
+                        <div class="units">%</div>
+                    </div>
+                    <div class="humidityCaption">humidity</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
